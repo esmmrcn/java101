@@ -10,7 +10,7 @@ public class Main {
         tutar =input.nextFloat();
 
         kdvOranı = (0<tutar && tutar<1000)? 0.18 : 0.08;
-        kdvliFiyat = (tutar*(1+kdvOranı);
+        kdvliFiyat = (tutar*(1+kdvOranı));
 
         System.out.println("KDV'siz Fiyat="+ tutar);
         System.out.println("KDV'li Fiyat="+ kdvliFiyat);
