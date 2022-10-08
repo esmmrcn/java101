@@ -5,8 +5,9 @@ public class Main {
 
         String userName, password, newPassword, answer;
 
-        System.out.println(("Kullanıcı adı giriniz:"));
         Scanner input = new Scanner(System.in);
+        
+        System.out.println(("Kullanıcı adı giriniz:"));
         userName = input.nextLine();
 
         System.out.println(("Şifre giriniz:"));
