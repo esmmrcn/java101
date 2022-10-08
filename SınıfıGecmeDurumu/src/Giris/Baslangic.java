@@ -24,19 +24,19 @@ public class Baslangic {
             mat = 0;
             dersSayisi--;
         }
-        if(0<fizik && fizik>100) {
+        if(0<fizik || fizik>100) {
             fizik = 0;
             dersSayisi--;
         }
-        if(0<kimya && kimya>100) {
+        if(0<kimya || kimya>100) {
             kimya = 0;
             dersSayisi--;
         }
-        if(0<turkce && turkce>100) {
+        if(0<turkce || turkce>100) {
             turkce = 0;
             dersSayisi--;
         }
-        if(0<muzik && muzik>100) {
+        if(0<muzik || muzik>100) {
             muzik = 0;
             dersSayisi--;
         }
