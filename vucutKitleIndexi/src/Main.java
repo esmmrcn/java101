@@ -10,7 +10,6 @@ public class Main {
         boy= input.nextDouble();
 
         System.out.print("Lütfen kilonuzu (kg cinsinde) giriniz: ");
-        Scanner input1 = new Scanner(System.in);
         kilo= input.nextDouble();
 
         vucutKitleIndeksi=kilo/(boy*boy);
