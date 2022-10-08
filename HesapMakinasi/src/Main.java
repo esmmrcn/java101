@@ -7,18 +7,17 @@ public class Main {
 
         int n1, n2, islem;
         double sonuc=0.0;
-
-        System.out.print("ilk sayıyı giriniz:");
+        
         Scanner input = new Scanner(System.in);
+        
+        System.out.print("ilk sayıyı giriniz:");
         n1 = input.nextInt();
 
         System.out.print("2. sayıyı giriniz:");
-        Scanner input1 = new Scanner(System.in);
         n2 = input.nextInt();
 
         System.out.println("Yapacağınız işlem numarasını giriniz:\n1.Toplama\n2.Çıkarma\n3.Çarpma\n4.Bölme");
-        Scanner input2 = new Scanner(System.in);
-        islem = input2.nextInt();
+        islem = input.nextInt();
 
         switch (islem) {
             case 1:
