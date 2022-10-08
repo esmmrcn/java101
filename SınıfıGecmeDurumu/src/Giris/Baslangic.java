@@ -20,7 +20,7 @@ public class Baslangic {
         System.out.print("Müzik notunuzu giriniz: ");
         muzik =input.nextInt();
 
-        if(0<mat && mat>100) {
+        if(0<mat || mat>100) {
             mat = 0;
             dersSayisi--;
         }
