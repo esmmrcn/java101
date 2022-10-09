@@ -16,14 +16,10 @@ public class Main {
             if (yil % 100 == 0){
                 if (yil % 400 == 0){
                     artikYil=true;
-                }else {
-                    artikYil=false;
                 }
             }else {
                 artikYil=true;
             }
-        }else{
-            artikYil=false;
         }
 
             System.out.println(yil+ " bir artık yıl" + ((artikYil)? "dır !" : " değildir !") );
