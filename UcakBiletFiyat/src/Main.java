@@ -31,7 +31,6 @@ public class Main {
 
             switch (yolculukTipi) {
                 case 1:
-                    ucret *= (1 - indirimOrani);
                     break;
                 case 2:
                     indirimOrani = 0.2;
