@@ -15,6 +15,8 @@ public class Main {
         System.out.print("Yolculuk tipini giriniz (1=> Tek Yön , 2=> Gidiş Dönüş) : ");
         yolculukTipi = input.nextInt();
 
+        ucret = mesafe * 0.1;
+        
         if (mesafe > 0 && yas > 0) {
             if (yas < 12) {
                 indirimOrani = 0.5;
@@ -25,8 +27,7 @@ public class Main {
             } else {
                 indirimOrani = 0;
             }
-
-            ucret = mesafe * 0.1;
+            
             ucret *= (1 - indirimOrani);
 
             switch (yolculukTipi) {
