@@ -16,6 +16,6 @@ public class Kombinasyon {
             cr /= r;
         }
 
-        System.out.println("C(n,r)= "cr);
+        System.out.println("C(n,r)= "+cr);
     }
 }
