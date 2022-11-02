@@ -7,11 +7,11 @@ public class MinMax {
         int number, min=0, max=0;
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Kaç tane sayı gireceksiniz: ");
+        System.out.print("Kaç tane sayı gireceksiniz: ");
         n= input.nextInt();
 
         for (int i=1; i<n+1; i++){
-            System.out.println(i+". Sayıyı giriniz: ");
+            System.out.print(i+". Sayıyı giriniz: ");
             number = input.nextInt();
 
             if (i==1){
