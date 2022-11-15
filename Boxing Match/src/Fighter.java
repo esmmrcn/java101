@@ -19,7 +19,9 @@ public class Fighter {
     void hit(Fighter foe) { //rakip
 
         System.out.println(this.name + " => " + foe.name + " " + this.damage + " hasar vurdu !");
-        if (!isDodge())
+        if (isDodge())
+            System.out.println(foe.name + " hasarı savurdu !");
+        else
             foe.health -= this.damage;
     }
 
